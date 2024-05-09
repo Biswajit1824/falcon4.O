@@ -1,0 +1,18 @@
+*{
+    background-color: blue;
+}
+#heading{
+    color: rgb(240, 117, 22);
+}
+#profile{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+#paragraph{
+    background-color:black ;
+    color: brown;
+}
+.name{
+    color: aqua;
+}

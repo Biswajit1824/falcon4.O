@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    color: red;
+    /* text-align: right; */
+    /* text-align: left; */
+    text-align: center;
+    /* text-decoration: wavy;
+    text-decoration: ; */
+    font-size: 100px;
+}
