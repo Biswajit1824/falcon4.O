@@ -1,0 +1,416 @@
+.container{
+    display:grid;
+    gap: 5px;
+    margin: 0;
+    grid-template-columns: repeat(18, 50px);
+    grid-template-rows: repeat(7, 50px);
+    height: 600px;
+    width: 900px;
+    position: relative;
+    left: 210px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(4, 92, 92);
+}
+#element{
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+}
+#element:hover{
+    font-size: 30px;
+}
+.box-1{
+    background-color: rgb(209, 81, 38);
+}
+
+.box-2{
+    grid-area: 1/18/1/19;
+}
+.box-3{
+    grid-area: 2/1/2/2;
+    background-color: rgb(236, 182, 111);
+}
+.box-4{
+    grid-area: 2/2/2/3;
+    background-color: rgb(239, 195, 18);
+}
+.box-5{
+    grid-area: 2/13/2/14;
+    background-color: rgb(209, 81, 38);
+}
+.box-6{
+    grid-area: 2/14/2/15;
+    background-color: rgb(209, 81, 38);
+}
+.box-7{
+    grid-area: 2/15/2/16;
+    background-color: rgb(209, 81, 38);
+}
+.box-8{
+    grid-area: 2/16/2/17;
+    background-color: rgb(209, 81, 38);
+}
+.box-9{
+    grid-area: 2/17/2/18;
+    background-color: rgb(24, 199, 77);
+}
+.box-10{
+    grid-area: 2/18/2/19;
+}
+.box-11{
+    grid-area: 3/1/3/2;
+    background-color: rgb(236, 182, 111);
+}
+.box-12{
+    grid-area: 3/2/3/3;
+    background-color: rgb(239, 195, 18);
+}
+.box-13{
+    grid-area: 3/13/3/14;
+    background-color: rgb(232, 58, 185);
+}
+.box-14{
+    grid-area: 3/14/3/15;
+    background-color: rgb(209, 81, 38);
+}
+.box-15{
+    grid-area: 3/15/3/16;
+    background-color: rgb(209, 81, 38);
+}
+.box-16{
+    grid-area: 3/16/3/17;
+    background-color: rgb(209, 81, 38);
+}
+.box-17{
+    grid-area: 3/17/3/18;
+    background-color: rgb(24, 199, 77);
+}
+.box-18{
+    grid-area: 3/18/3/19;
+}
+.box-19{
+    grid-area: 4/1/4/2;
+    background-color: rgb(236, 182, 111);
+}
+.box-20{
+    grid-area: 4/2/4/3;
+    background-color: rgb(239, 195, 18);
+}
+.box-21{
+    grid-area: 4/3/4/4;
+    background-color: rgb(167, 234, 11);
+}
+.box-22{
+    grid-area: 4/4/4/5;
+    background-color: rgb(99, 37, 146);
+}
+.box-23{
+    grid-area: 4/5/4/6;
+    background-color: rgb(99, 37, 146);
+}
+.box-24{
+    grid-area: 4/6/4/7;
+    background-color: rgb(99, 37, 146);
+}
+.box-25{
+    grid-area: 4/7/4/8;
+    background-color: rgb(99, 37, 146);
+}
+.box-26{
+    grid-area: 4/8/4/9;
+    background-color: rgb(99, 37, 146);
+}
+.box-27{
+    grid-area: 4/9/4/10;
+    background-color: rgb(99, 37, 146);
+}
+.box-28{
+    grid-area: 4/10/4/11;
+    background-color: rgb(99, 37, 146);
+}
+.box-29{
+    grid-area: 4/11/4/12;
+    background-color: rgb(99, 37, 146);
+}
+.box-30{
+    grid-area: 4/12/4/13;
+    background-color: rgb(99, 37, 146);
+}
+.box-31{
+    grid-area: 4/13/4/14;
+    background-color: rgb(232, 58, 185);
+}
+.box-32{
+    grid-area: 4/14/4/15;
+    background-color: rgb(232, 58, 185);
+}
+.box-33{
+    grid-area: 4/15/4/16;
+    background-color: rgb(209, 81, 38);
+}
+.box-34{
+    grid-area: 4/16/4/17;
+    background-color: rgb(209, 81, 38);
+}
+.box-35{
+    grid-area: 4/17/4/18;
+    background-color: rgb(24, 199, 77);
+}
+.box-36{
+    grid-area: 4/18/4/19;
+}
+.box-37{
+    grid-area: 5/1/5/2;
+    background-color: rgb(236, 182, 111);
+}
+.box-38{
+    grid-area: 5/2/5/3;
+    background-color: rgb(239, 195, 18);
+}
+.box-39{
+    grid-area: 5/3/5/4;
+    background-color: rgb(167, 234, 11);
+}
+.box-40{
+    grid-area: 5/4/5/5;
+    background-color: rgb(99, 37, 146);
+}
+.box-41{
+    grid-area: 5/5/5/6;
+    background-color: rgb(99, 37, 146);
+}
+.box-42{
+    grid-area: 5/6/5/7;
+    background-color: rgb(99, 37, 146);
+}
+.box-43{
+    grid-area: 5/7/5/8;
+    background-color: rgb(99, 37, 146);
+}
+.box-44{
+    grid-area: 5/8/5/9;
+    background-color: rgb(99, 37, 146);
+}
+.box-45{
+    grid-area: 5/9/5/10;
+    background-color: rgb(99, 37, 146);
+}
+.box-46{
+    grid-area: 5/10/5/11;
+    background-color: rgb(99, 37, 146);
+}
+.box-47{
+    grid-area: 5/11/5/12;
+    background-color: rgb(99, 37, 146);
+}
+.box-48{
+    grid-area: 5/12/5/13;
+    background-color: rgb(99, 37, 146);
+}
+.box-49{
+    grid-area: 5/13/5/14;
+    background-color: rgb(232, 58, 185);
+}
+.box-50{
+    grid-area: 5/14/5/15;
+    background-color: rgb(232, 58, 185);
+}
+.box-51{
+    grid-area: 5/15/5/16;
+    background-color: rgb(232, 58, 185);
+}
+.box-52{
+    grid-area: 5/16/5/17;
+    background-color: rgb(209, 81, 38);
+}
+.box-53{
+    grid-area: 5/17/5/18;
+    background-color: rgb(24, 199, 77);
+}
+.box-54{
+    grid-area: 5/18/5/19;
+}
+.box-55{
+    grid-area: 6/1/6/2;
+    background-color: rgb(236, 182, 111);
+}
+.box-56{
+    grid-area: 6/2/6/3;
+    background-color: rgb(239, 195, 18);
+}
+.box-57{
+    grid-area: 6/3/6/4;
+    background-color: rgb(167, 234, 11);
+}
+.box-58{
+    grid-area: 6/4/6/5;
+    background-color: rgb(99, 37, 146);
+}
+.box-59{
+    grid-area: 6/5/6/6;
+    background-color: rgb(99, 37, 146);
+}
+.box-60{
+    grid-area: 6/6/6/7;
+    background-color: rgb(99, 37, 146);
+}
+.box-61{
+    grid-area: 6/7/6/8;
+    background-color: rgb(99, 37, 146);
+}
+.box-62{
+    grid-area: 6/8/6/9;
+    background-color: rgb(99, 37, 146);
+}
+.box-63{
+    grid-area: 6/9/6/10;
+    background-color: rgb(99, 37, 146);
+}
+.box-64{
+    grid-area: 6/10/6/11;
+    background-color: rgb(99, 37, 146);
+}
+.box-65{
+    grid-area: 6/11/6/12;
+    background-color: rgb(99, 37, 146);
+}
+.box-66{
+    grid-area: 6/12/6/13;
+    background-color: rgb(99, 37, 146);
+}
+.box-67{
+    grid-area: 6/13/6/14;
+    background-color: rgb(232, 58, 185);
+}
+.box-68{
+    grid-area: 6/14/6/15;
+    background-color: rgb(232, 58, 185);
+}
+.box-69{
+    grid-area: 6/15/6/16;
+    background-color: rgb(232, 58, 185);
+}
+.box-70{
+    grid-area: 6/16/6/17;
+    background-color: rgb(232, 58, 185);
+}
+.box-71{
+    grid-area: 6/17/6/18;
+    background-color: rgb(24, 199, 77);
+}
+.box-72{
+    grid-area: 6/18/6/19;
+}
+.box-73{
+    grid-area: 7/1/7/2;
+    background-color: rgb(236, 182, 111);
+}
+.box-74{
+    grid-area: 7/2/7/3;
+    background-color: rgb(239, 195, 18);
+}
+.box-75{
+    grid-area: 7/3/7/4;
+    background-color: rgb(11, 197, 234);
+}
+.box-76{
+    grid-area: 7/4/7/5;
+    background-color: rgb(99, 37, 146);
+}
+.box-77{
+    grid-area: 7/5/7/6;
+    background-color: rgb(99, 37, 146);
+}
+.box-78{
+    grid-area: 7/6/7/7;
+    background-color: rgb(99, 37, 146);
+}
+.box-79{
+    grid-area: 7/7/7/8;
+    background-color: rgb(99, 37, 146);
+}
+.box-80{
+    grid-area: 7/8/7/9;
+    background-color: rgb(99, 37, 146);
+}
+.box-81{
+    grid-area: 7/9/7/10;
+    background-color: rgb(99, 37, 146);
+}
+.box-82{
+    grid-area: 7/10/7/11;
+    background-color: rgb(99, 37, 146);
+}
+.box-83{
+    grid-area: 7/11/7/12;
+    background-color: rgb(99, 37, 146);
+}
+.box-84{
+    grid-area: 7/12/7/13;
+    background-color: rgb(99, 37, 146);
+}
+.box-85{
+    grid-area: 7/13/7/14;
+    background-color: rgb(232, 58, 185);
+}
+.box-86{
+    grid-area: 7/14/7/15;
+    background-color: rgb(232, 58, 185);
+}
+.box-87{
+    grid-area: 7/15/7/16;
+    background-color: rgb(232, 58, 185);
+}
+.box-88{
+    grid-area: 7/16/7/17;
+    background-color: rgb(232, 58, 185);
+}
+.box-89{
+    grid-area: 7/17/7/18;
+    background-color: rgb(24, 199, 77);
+}
+.box-90{
+    grid-area: 7/18/7/19;
+}
+.chemical{
+    display: grid;
+    gap: 5px;
+    position: relative;
+    top: 400px;
+    left: 10px;
+    grid-template-columns: repeat(14, 50px);
+    grid-template-rows: repeat(2, 50px);
+}
+#lanthanoid{
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(167, 234, 11);
+}
+#lanthanoid:hover{
+    font-size: 30px;
+}
+#actinoid{
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(11, 197, 234);
+}
+#actinoid:hover{
+    font-size: 30px;
+}

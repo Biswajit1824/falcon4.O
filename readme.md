@@ -1,15 +1,18 @@
-structure of the MERN stark course
+## structure of the MERN stark course
 
 front-end :
-HTML - structure the web pages
-CSS - Styling/designing the weeb pages
+
+ HTML - structure the web pages.
+
+ CSS - Styling/designing the weeb pages
     frameworks :-
     BootStrap, Tailwind CSS, Chakra UI(User Interface)
     MUI(Materialstic User Inerface)
-JavaScript - for building logic
+    
+ JavaScript - for building logic
     Library :- 
-    React JS
-    Next JS
+     React JS
+     Next JS
 
 
 Back-end :

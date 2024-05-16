@@ -1,0 +1,20 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    background-color: green;
+    color: aliceblue;
+    padding: 20px 50px;
+    border: transparent;
+    border-radius: 10px;
+    transition: 2s ease-in-out;
+    transform: scale(1.5);
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: darkorange;
+    font-size: 30px;
+}
