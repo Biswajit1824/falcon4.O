@@ -1,8 +1,33 @@
 // variable : variable can able to store the Data.
-// you can't declare the same variable further
+
+// you can't declare the same variable further.
+
 // Ex: let name = "biswajit" , let name = "silan"
+
 // syntax : var,let, and const(keywords).
+
 // Recommended --> let and const.
+
 //Example: let num = 10;
+
 // JavaScript is case sensetive.(A != a)
+
 // Let second num = 1000; (space doesn't allow while declaring variable.)
+
+// String is a collection of charcters.
+
+// String should be in " ... "
+
+// Number() : Built-in constructor function
+
+// String() : Built-in constructor function
+
+// Truthy value : true, non-zero numbers(1,-1,2..etc),non-empty string("Pramod"),objects({})
+
+// Falsy value : false, 0, -0, 0n, "", null, undefined, NaN
+
+//   "\n" : next line
+
+// let sentence = "He is a good boy"; 
+// index start from : 0
+
