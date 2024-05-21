@@ -17,4 +17,5 @@ body{
     cursor: pointer;
     background-color: darkorange;
     font-size: 30px;
+    transform: rotate(360deg);
 }
