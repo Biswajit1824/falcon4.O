@@ -59,4 +59,12 @@ while (i>5){
 
 // dry run
  
-// do  while loop :
+
+// do ..while loop :
+// syntax :
+
+// let i = 0;
+// do {
+//   console.log(i);
+//   i++;
+// } while (i < 5);
