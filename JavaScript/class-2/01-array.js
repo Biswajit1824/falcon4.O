@@ -7,16 +7,16 @@
 //Create an array
 
 //earlier
-let num1 = 109;
-let num2 = 107;
-let num3 = 100;
+// let num1 = 109;
+// let num2 = 107;
+// let num3 = 100;
 
 //Now
 
-let myArray = [num1, num2, num3]
+// let myArray = [num1, num2, num3]
 // console.log(myArray);
 
-let mixedArray = ["Biswajit", "Silan",24,54];
+// let mixedArray = ["Biswajit", "Silan",24,54];
 // console.log(mixedArray);
 
 // Accessing elements :
@@ -31,7 +31,7 @@ let mixedArray = ["Biswajit", "Silan",24,54];
 // console.log(mixedArray[mixedArray.length - 1]);
 
 //Modifying the element :
-mixedArray[2] = 19;
+// mixedArray[2] = 19;
 // console.log(mixedArray);
 
 //Array methods :
@@ -44,7 +44,7 @@ let bikes = ["Pulsar", "Ninja", "KTM", "Harley", "Triumph"];
 // console.log(bikes.length);
 
 bikes.push("hero");
-// console.log(bikes);
+console.log(bikes);
 // console.log(bikes.length);
 
 // Pop method
@@ -62,8 +62,8 @@ bikes.push("hero");
 // Shift method :
 // The shift() method removes the first element from an array and returns that element. This method changes the length of the array.
 
-console.log(bikes.shift()); // Yamaha
-console.log(bikes);
+// console.log(bikes.shift()); // Yamaha
+// console.log(bikes);
 
 // Slice method :
 // The slice() method extracts a part of an array and returns the extracted part in a new array.
@@ -99,11 +99,11 @@ console.log(bikes);
 // console.log(vehicle);
 
 // console.log(Array.isArray(cars)); // to check the type
-console.log(Array.from("Biswajit")); // to create an array
+// console.log(Array.from("Biswajit")); // to create an array
 
 // Flat array method :
 // The flat() method creates a new array with all sub-array elements concatenated into it recursively up to the specified depth.
 
-let mixedArray2 = [1, 2, 3, ["a", "b", "c"], [2.5, 5.6, 3.9]];
-console.log(mixedArray2);
-console.log(mixedArray2.flat(Infinity));
+// let mixedArray2 = [1, 2, 3, ["a", "b", "c"], [2.5, 5.6, 3.9]];
+// console.log(mixedArray2);
+// console.log(mixedArray2.flat(Infinity));

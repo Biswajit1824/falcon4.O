@@ -36,11 +36,43 @@ newStudent.address = { po: "RJP", pin: 755009 };
 // Accessing object :
 
 // myarray[0]
-console.log(newStudent.name); 
-console.log(newStudent["marks"]); 
-console.log(newStudent.city);
-console.log(newStudent.isMarried);
-console.log(newStudent.address);
-console.log(newStudent.age);
-console.log(student.city);
+// console.log(newStudent.name); 
+// console.log(newStudent["marks"]); 
+// console.log(newStudent.city);
+// console.log(newStudent.isMarried);
+// console.log(newStudent.address);
+// console.log(newStudent.age);
+// console.log(student.city);
 
+// Modifying object : 
+
+// console.log(newStudent);
+
+newStudent.name = "Sipu";
+newStudent.age = 25;
+newStudent.city = "Kuakhia";
+newStudent.isMarried = true ;
+console.log(newStudent);
+
+// delete object : 
+
+delete newStudent.age
+console.log(newStudent);
+newStudent.age = 25;
+console.log(newStudent);
+
+//object keys
+
+let key = object.key(student);
+console.log(keys);
+
+// it gives the only keys ["name", "city", "mark", "isMarried", "address"]
+
+// object value :
+
+let valiue = object.value(student)
+console.log(value);
+
+//it gives the value
+
+// object entries
