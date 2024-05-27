@@ -1,0 +1,22 @@
+body{
+    background-color: #212121;
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    color: yellow;
+}
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    font-size: 60px;
+    width: 400px;
+    height: 100px;
+    border-radius: 20px;
+}
