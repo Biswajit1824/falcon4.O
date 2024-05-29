@@ -1,12 +1,13 @@
 // on load
-const myName = prompt("Please enter your name: ");
-window.addEventListener("load", () => {
-  alert(`Hey ${myName} welcome back`);
-});
 
-const heading = document.querySelector(".heading");
-heading.innerText = `Hey ${myName} welcome back`;
-heading.style.color = "black";
+// const myName = prompt("Please enter your name: ");
+// window.addEventListener("load", () => {
+//   alert(`Hey ${myName} welcome back`);
+// });
+
+// const heading = document.querySelector(".heading");
+// heading.innerText = `Hey ${myName} welcome back`;
+// heading.style.color = "black";
 
 // to select the body tag
 const body = document.querySelector("body");
